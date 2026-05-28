@@ -16,11 +16,11 @@ export const mainLayout = (content: Html) => html`
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Dashboard</title>
-        <link rel="stylesheet" href="/dist/client/index.css"></link>
+        <link rel="stylesheet" href="/dist/index.css"></link>
       </head>
       <body>
         ${content}
-        <script src="/dist/client/index.js"></script>
+        <script src="/dist/index.js"></script>
       </body>
     </html>
   `;
